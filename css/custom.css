@@ -1,0 +1,20 @@
+@font-face { font-family: Delicious;
+  src: url('../font/3-cat.ttf') format('opentype');
+
+}
+.custome-text { font-family: Delicious, sans-serif;
+  color: #d5d5d5;
+  /* background-color: #d5d5d5; */
+  letter-spacing: .05em;
+  text-shadow:
+    4px 4px 0px #d5d5d5,
+    7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.border {
+  -webkit-filter: drop-shadow(1px 1px 0 black)
+  drop-shadow(-1px -1px 0 black);
+filter: drop-shadow(1px 1px 0 black)
+drop-shadow(-1px -1px 0 black);
+}
